@@ -24,7 +24,7 @@ int largestRectangleArea(int a[],int n)
         }
         
     }
-    while(top==-1)
+    while(top!=-1)
     {
         tp=stack[top--];
         curr=a[tp]*(top==-1?i:i-stack[top]-1);
